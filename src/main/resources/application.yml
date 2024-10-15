@@ -2,14 +2,14 @@ spring:
   application:
     name: learning-exception-handling
 
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    username: baonguyen
-    password: 123
-    url: jdbc:postgresql://localhost:5432/leh-db
-  jpa:
-    hibernate:
-      ddl-auto: validate
-
-  flyway:
-    enabled: true
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    username: baonguyen
+#    password: 123
+#    url: jdbc:postgresql://localhost:5432/leh-db
+#  jpa:
+#    hibernate:
+#      ddl-auto: validate
+#
+#  flyway:
+#    enabled: false

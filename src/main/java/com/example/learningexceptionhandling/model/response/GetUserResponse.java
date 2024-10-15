@@ -9,9 +9,6 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Response <T>{
-  private String id;
-  private String message;
-  private String status;
-  private T data;
+public class GetUserResponse {
+  String name;
 }
